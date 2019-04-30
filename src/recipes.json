@@ -1,0 +1,25 @@
+{
+  "recipes": [
+    {
+      "name": "Poached egg & avocado breakfast salad",
+      "instructions": "-Poach the eggs. -Create the salads by layering the lettuce, tomatoes, cooked quinoa, avocado, and pistachios. - Add the poached eggs and top with salt/pepper to taste.",
+      "list": "2 eggs (fresh), 1 avocado, 7 grape tomatoes, 2 cups lettuce, 1/4 cup cooked quinoa, 1 Tbsp pistachios, salt/pepper",
+      "ingredients": ["Egg",	"Avocado",	"Tomato",	"Lettuce",	"Quinoa",	"Pistachios"],
+      "image": "egg_avocado_salad"
+    },
+    {
+      "name": "Cheddar and Chive Smashed Potatoes",
+      "instructions": "-Poach the eggs. -Create the salads by layering the lettuce, tomatoes, cooked quinoa, avocado, and pistachios. - Add the poached eggs and top with salt/pepper to taste.",
+      "list": "2 eggs (fresh), 1 avocado, 7 grape tomatoes, 2 cups lettuce, 1/4 cup cooked quinoa, 1 Tbsp pistachios, salt/pepper",
+      "ingredients": ["Potatoes", "Salt", "Pepper", "Butter", "Garlic", "Milk", "Cheddar Cheese", "Sour cream", "Chives"],
+      "image": "cheddar_potatoes"
+    },
+    {
+      "name": "Easy Creamy Mashed Potatoes",
+      "instructions": "-Poach the eggs. -Create the salads by layering the lettuce, tomatoes, cooked quinoa, avocado, and pistachios. - Add the poached eggs and top with salt/pepper to taste.",
+      "list": "2 eggs (fresh), 1 avocado, 7 grape tomatoes, 2 cups lettuce, 1/4 cup cooked quinoa, 1 Tbsp pistachios, salt/pepper",
+      "ingredients": ["Potatoes", "Salt", "Milk", "Butter", "Sour ream", "Parmesan heese", "Pepper", "Parsley"],
+      "image": "mashed_potatoes"
+    }
+  ]
+}
