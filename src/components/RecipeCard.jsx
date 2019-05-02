@@ -5,7 +5,7 @@ class RecipeCard extends Component {
     return (
       <React.Fragment>
         <article>
-          <h3>recipe title</h3>
+          <h3>{this.props.name}</h3>
           <div class="recipeImage">[RECIPE IMAGE]</div>
 
           <div class="recipeIngredients">
@@ -13,7 +13,7 @@ class RecipeCard extends Component {
           </div>
 
           <div class="ingredientBox">
-            <p>[INGREDIENT BOX]</p>
+            <p>{this.props.ingredients}</p>
             <div class="ingredientImage">
               <p>[INGREDIENT IMAGE]</p>
             </div>
