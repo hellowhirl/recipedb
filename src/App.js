@@ -10,6 +10,7 @@ class App extends Component {
         {
           recipes.map(m =>
             <RecipeCard
+              key={m.id}
               name={m.name}
               ingredients={m.ingredients}
              />

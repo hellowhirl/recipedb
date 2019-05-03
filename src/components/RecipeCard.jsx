@@ -2,19 +2,29 @@ import React, {Component} from 'react';
 
 class RecipeCard extends Component {
   render() {
+    const ingreds = this.props.ingredients;
+
+    const formattedIngreds = ingreds.map((item, i ) => {
+        if((ingreds.length) === i + 1 ) {
+          return item;
+        }else {
+          return item + ", ";
+        }
+    })
+
     return (
       <React.Fragment>
         <article>
           <h3>{this.props.name}</h3>
-          <div class="recipeImage">[RECIPE IMAGE]</div>
+          <div className="recipeImage">[RECIPE IMAGE]</div>
 
-          <div class="recipeIngredients">
+          <div className="recipeIngredients">
             <p>ingredients:</p>
           </div>
 
-          <div class="ingredientBox">
-            <p>{this.props.ingredients}</p>
-            <div class="ingredientImage">
+          <div className="ingredientBox">
+            <p>{formattedIngreds}</p>
+            <div className="ingredientImage">
               <p>[INGREDIENT IMAGE]</p>
             </div>
           </div>
