@@ -19,7 +19,9 @@ class RecipeCard extends Component {
     const items = []
 
     for (const [index, value] of ingreds.entries()) {
-      items.push(<li key={index}>{value}</li>)
+      const iconPath = `./images/icons/${value}.jpg`;
+      items.push(<li key={index}>{value}</li>);
+      items.push(<img src={iconPath} />)
     }
 
     return (
@@ -32,7 +34,7 @@ class RecipeCard extends Component {
 
           <div className="recipeIngredients">
             <p>ingredients:</p>
-            <div>{items}</div>
+            <div className="icons">{items}</div>
           </div>
 
           <div className="ingredientBox">

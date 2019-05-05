@@ -30,3 +30,7 @@ article {
 img {
   width: 100%;
 }
+
+.icons img {
+  width: 60px;
+}
