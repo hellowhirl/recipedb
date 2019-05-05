@@ -1,10 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+(This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).)
+
+# Recipe Database
+
+A simple and visually pleasing way to display recipes on a page.
+
+
+Simple data requirements for each recipe:
+
+* "name" - recipe name
+* "instructions" - how to prepare the recipe in steps
+* "list" - full details of recipe ingredients including measurements and ingredients specifics
+* "ingredients" - each ingredient simplified, to be used commonly across other recipes
+* "image" - path for image recipe (.jpg)
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` OR `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
