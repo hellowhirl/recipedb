@@ -11,8 +11,16 @@ class RecipeCard extends Component {
         }
     });
 
+
     const image = this.props.image;
     const imagePath = `./images/recipe_images/${image}.jpg`;
+
+
+    const items = []
+
+    for (const [index, value] of ingreds.entries()) {
+      items.push(<li key={index}>{value}</li>)
+    }
 
     return (
       <React.Fragment>
@@ -24,10 +32,12 @@ class RecipeCard extends Component {
 
           <div className="recipeIngredients">
             <p>ingredients:</p>
+            <div>{items}</div>
           </div>
 
           <div className="ingredientBox">
             <p>{formattedIngreds}</p>
+
             <div className="ingredientImage">
               <p>[INGREDIENT IMAGE]</p>
             </div>
