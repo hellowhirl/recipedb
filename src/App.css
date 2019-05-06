@@ -1,5 +1,7 @@
 .App {
+  background-color: #273237;
   text-align: center;
+  color: #fff;
 }
 
 .App-logo {
@@ -28,9 +30,28 @@ article {
 }
 
 img {
-  width: 100%;
+  width: 40%;
 }
 
 .icons img {
   width: 60px;
+}
+
+.iconContainer li {
+  display: block;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.ingredientName {
+  padding-left: 8px;
+}
+
+article.recipeCard {
+  margin: 0 10px 30px;
+  background-color: #3d464b;
 }
