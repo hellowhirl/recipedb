@@ -25,12 +25,8 @@
   color: #61dafb;
 }
 
-article {
-  border: 1px solid gray;
-}
-
 img {
-  width: 40%;
+  width: 35%;
 }
 
 .icons img {
@@ -54,4 +50,19 @@ img {
 article.recipeCard {
   margin: 0 10px 30px;
   background-color: #3d464b;
+  border-radius: 15px;
+}
+
+.recipeHeader {
+  display: flex;
+  align-items: flex-start;
+}
+
+.recipeHeader h2 {
+  font-size: 1.2em;
+}
+
+.recipeIngredients h3 {
+  text-align: left;
+  font-size: 1.2em;
 }

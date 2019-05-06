@@ -16,6 +16,8 @@ class App extends Component {
               name={m.name}
               ingredients={m.ingredients}
               image={m.image}
+              time={m.prepTime}
+              percent={m.tempPercent}
              />
           )
         }

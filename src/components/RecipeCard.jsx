@@ -23,16 +23,27 @@ class RecipeCard extends Component {
       items.push(<div class="iconContainer"><img src={iconPath} /><li key={index} class="ingredientName">{value}</li></div>)
     }
 
+    const time = this.props.time;
+
     return (
       <React.Fragment>
         <article className="recipeCard">
-          <h3>{this.props.name}</h3>
-          <div className="recipeImage">
+          <div className="recipeHeader">
             <img src={imagePath} />
+            <div className="metaDetails">
+              <h2>{this.props.name}</h2>
+              <div className="prepTime">
+                <p className="prepTime">{time}</p>
+                <p className="minutes">minutes</p>
+              </div>
+              <div className="percentIngredients">
+                <p>{this.props.percent}</p>
+              </div>
+            </div>
           </div>
 
           <div className="recipeIngredients">
-            <p>INGREDIENTS</p>
+            <h3>INGREDIENTS</h3>
             <div className="icons">{items}</div>
           </div>
 

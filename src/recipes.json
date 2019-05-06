@@ -6,7 +6,9 @@
       "instructions": "-Poach the eggs. -Create the salads by layering the lettuce, tomatoes, cooked quinoa, avocado, and pistachios. - Add the poached eggs and top with salt/pepper to taste.",
       "list": "2 eggs (fresh), 1 avocado, 7 grape tomatoes, 2 cups lettuce, 1/4 cup cooked quinoa, 1 Tbsp pistachios, salt/pepper",
       "ingredients": ["Egg",	"Avocado",	"Tomato",	"Lettuce",	"Quinoa",	"Pistachios"],
-      "image": "egg_avocado_salad"
+      "prepTime": 20,
+      "image": "egg_avocado_salad",
+      "tempPercent": 60
     },
     {
       "id": 2,
@@ -14,7 +16,9 @@
       "instructions": "-Poach the eggs. -Create the salads by layering the lettuce, tomatoes, cooked quinoa, avocado, and pistachios. - Add the poached eggs and top with salt/pepper to taste.",
       "list": "2 eggs (fresh), 1 avocado, 7 grape tomatoes, 2 cups lettuce, 1/4 cup cooked quinoa, 1 Tbsp pistachios, salt/pepper",
       "ingredients": ["Potatoes", "Salt", "Pepper", "Butter", "Garlic", "Milk", "Cheddar Cheese", "Sour cream", "Chives"],
-      "image": "cheddar_potatoes"
+      "prepTime": 15,
+      "image": "cheddar_potatoes",
+      "tempPercent": 60
     },
     {
       "id": 3,
@@ -22,7 +26,9 @@
       "instructions": "-Poach the eggs. -Create the salads by layering the lettuce, tomatoes, cooked quinoa, avocado, and pistachios. - Add the poached eggs and top with salt/pepper to taste.",
       "list": "2 eggs (fresh), 1 avocado, 7 grape tomatoes, 2 cups lettuce, 1/4 cup cooked quinoa, 1 Tbsp pistachios, salt/pepper",
       "ingredients": ["Potatoes", "Salt", "Milk", "Butter", "Sour ream", "Parmesan heese", "Pepper", "Parsley"],
-      "image": "mashed_potatoes"
+      "prepTime": 40,
+      "image": "mashed_potatoes",
+      "tempPercent": 60
     }
   ]
 }
