@@ -5,9 +5,10 @@ class SearchBar extends Component {
 
     return (
       <React.Fragment>
-        <article>
-          <p>[Search Bar Area]</p>
-        </article>
+        <p>Cook more</p>
+        <div className="searchContainer">
+          <div className="searchForm"></div>
+        </div>
       </React.Fragment>
     );
   }

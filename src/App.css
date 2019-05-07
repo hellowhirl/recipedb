@@ -60,9 +60,33 @@ article.recipeCard {
 
 .recipeHeader h2 {
   font-size: 1.2em;
+  text-align: left;
 }
 
 .recipeIngredients h3 {
   text-align: left;
   font-size: 1.2em;
+}
+
+.resultsContainer {
+  text-align: left;
+}
+
+.resultsContainer h1 {
+  font-size: 1.5em;
+}
+
+.resultsCounter {
+  font-size: .8em;
+  font-style: italic;;
+}
+.searchContainer {
+    padding: 0 30px;
+}
+
+.searchForm {
+  width: 100%;
+  height: 40px;
+  border-radius: 15px;
+  background-color: white;
 }
