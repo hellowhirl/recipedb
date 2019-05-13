@@ -20,7 +20,7 @@ class RecipeCard extends Component {
 
     for (const [index, value] of ingreds.entries()) {
       const iconPath = `./images/icons/${value}.jpg`;
-      items.push(<div class="iconContainer"><img src={iconPath} /><li key={index} class="ingredientName">{value}</li></div>)
+      items.push(<div className="iconContainer"><img src={iconPath} /><li key={index} className="ingredientName">{value}</li></div>)
     }
 
     const time = this.props.time;
