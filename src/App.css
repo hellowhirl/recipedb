@@ -2,6 +2,7 @@
   background-color: #273237;
   text-align: center;
   color: #fff;
+  font-family: helvetica;
 }
 
 .App-logo {
@@ -29,18 +30,24 @@ img {
   width: 35%;
 }
 
-.icons img {
-  width: 60px;
+.icons {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.iconContainer li {
-  display: block;
+.icons img {
+  width: 60px;
 }
 
 .iconContainer {
   display: flex;
   align-items: center;
   padding-bottom: 10px;
+}
+
+.iconContainer li {
+  display: block;
+  font-size: 14px;
 }
 
 .ingredientName {
@@ -64,16 +71,18 @@ article.recipeCard {
 }
 
 .recipeIngredients h3 {
+  padding-left: 5px;
   text-align: left;
-  font-size: 1.2em;
+  font-size: 20px;
 }
 
 .resultsContainer {
+  padding: 20px 10px;
   text-align: left;
 }
 
 .resultsContainer h1 {
-  font-size: 1.5em;
+  font-size: 28px;
 }
 
 .resultsCounter {
