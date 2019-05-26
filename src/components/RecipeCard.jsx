@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { withRouter } from 'react-router';
 
 class RecipeCard extends Component {
   render() {
@@ -11,22 +12,29 @@ class RecipeCard extends Component {
     //     }
     // });
 
-
     const image = this.props.image;
     const imagePath = `./images/recipe_images/${image}.jpg`;
 
-
-    const items = []
+    const items = [];
 
     for (const [index, value] of ingreds.entries()) {
       const iconPath = `./images/icons/${value}.jpg`;
-      items.push(<div className="col-md-3 col-6 iconContainer"><img src={iconPath} /><li key={index} className="ingredientName">{value}</li></div>)
+      items.push(
+        <div key={index} className="col-md-3 col-6 iconContainer">
+          <img src={iconPath} />
+          <li className="ingredientName">{value}</li>
+        </div>
+      );
     }
 
     const time = this.props.time;
 
+    const handleClick = () => {
+      this.props.history.push(this.props.id + '');
+    };
+
     return (
-      <React.Fragment>
+      <div onClick={handleClick}>
         <article className="recipeCard">
           <div className="recipeHeader">
             <img src={imagePath} />
@@ -46,11 +54,12 @@ class RecipeCard extends Component {
             <h3>INGREDIENTS</h3>
             <div className="container icons">{items}</div>
           </div>
-
         </article>
-      </React.Fragment>
+      </div>
     );
   }
 }
 
-export default RecipeCard;
+const RecipeCardWithRouter = withRouter(RecipeCard);
+
+export default RecipeCardWithRouter;
