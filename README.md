@@ -5,6 +5,8 @@
 
 A simple and visually pleasing way to display recipes on a page.
 
+![image](https://user-images.githubusercontent.com/20974577/58872172-6ec91d80-86fe-11e9-8048-b864e59855c0.png)
+
 
 Simple data requirements for each recipe:
 
