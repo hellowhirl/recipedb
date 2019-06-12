@@ -86,11 +86,11 @@ article.recipeCard {
 }
 
 .resultsCounter {
-  font-size: .8em;
-  font-style: italic;;
+  font-size: 0.8em;
+  font-style: italic;
 }
 .searchContainer {
-    padding: 0 30px;
+  padding: 0 30px;
 }
 
 .searchForm {
@@ -98,4 +98,15 @@ article.recipeCard {
   height: 40px;
   border-radius: 15px;
   background-color: white;
+}
+
+.mainImage {
+  margin: 10px 0 0 10px;
+  border: 1px solid #fff;
+  border-radius: 12px;
+}
+
+.metaDetails {
+  margin-top: 10px;
+  padding-left: 15px;
 }
